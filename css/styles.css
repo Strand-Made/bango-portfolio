@@ -4,7 +4,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 h3 {
@@ -140,8 +140,9 @@ body {
   padding: 2rem 0;
 }
 
-.offer-section h2 {
-  color: #616e7c;
+.offer-section .offer-section-header {
+  color: #1f2933;
+  text-align: center;
 }
 
 .offer-cards {
@@ -357,12 +358,22 @@ body {
   background-color: #0967d2;
 }
 
-.red {
+.blue {
   border: none;
   background-color: #0967d2;
 }
 
-.red:hover, .red:focus {
+.blue:hover, .blue:focus {
+  background-color: #054186;
+}
+
+.dark-blue {
+  border: 2px #0f609b solid;
+  color: #1f2933;
+  font-weight: 500;
+}
+
+.dark-blue:hover, .dark-blue:focus {
   background-color: #054186;
 }
 
@@ -483,6 +494,9 @@ body {
 @media screen and (max-width: 760px) {
   .project-details-container {
     flex-direction: column;
+  }
+  .project-details-container .project-details-text {
+    margin: 1rem;
   }
 }
 

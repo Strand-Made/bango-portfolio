@@ -11,9 +11,19 @@
   @include hover-trans;
 }
 
-.red {
+.blue {
   border: none;
   background-color: $primary-lblue;
+  &:hover,
+  &:focus {
+    background-color: #054186;
+  }
+}
+
+.dark-blue {
+  border: 2px $primary-blue solid;
+  color: $text-dark;
+  font-weight: 500;
   &:hover,
   &:focus {
     background-color: #054186;
