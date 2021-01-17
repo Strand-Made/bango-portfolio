@@ -1,0 +1,51 @@
+// Portfolio page
+.portfolio {
+  padding: 2rem 0;
+}
+.page-header {
+  color: $text-light;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  .project-image-text {
+    background-color: #003e6bcb;
+    color: $text-light;
+  }
+
+  .project-card {
+    border-radius: 3px;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+      transition: all 0.5s ease-in-out;
+      // margin: 0 1.5rem;
+      backface-visibility: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .portfolio-container {
+    align-items: center;
+    flex-direction: column;
+
+    .project-card {
+      width: 70%;
+      margin-bottom: 2rem;
+      &:hover,
+      &:focus {
+        margin: 2rem 0;
+      }
+    }
+  }
+}

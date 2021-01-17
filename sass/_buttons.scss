@@ -1,0 +1,33 @@
+// Buttons
+.btn {
+  display: inline-block;
+  border: 1px #ffff solid;
+  padding: 0.8rem 2.2rem;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    background-color: $primary-lblue;
+  }
+  @include hover-trans;
+}
+
+.red {
+  border: none;
+  background-color: $primary-lblue;
+  &:hover,
+  &:focus {
+    background-color: #054186;
+  }
+}
+
+.small {
+  padding: 0.4rem 0.5rem;
+}
+
+// Media Queries
+@media (max-width: 640px) {
+  .btn {
+    padding: 0.4rem 1.3rem;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,93 @@
+.about-me {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.about-profile {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+  position: relative;
+}
+
+.about-profile::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $primary-darkblue;
+  height: 5px;
+}
+.about-profile-img {
+  order: 1;
+  margin: 0.5rem;
+  margin-right: 0.5rem;
+}
+.profile-img {
+  border-radius: 5px;
+  width: 10rem;
+}
+.about-list {
+  order: 3;
+  align-self: flex-end;
+  margin: 0.5rem 0;
+  margin-left: 0.5emr;
+  li {
+    list-style: none;
+  }
+  .my-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $primary-darkblue;
+  }
+}
+
+.about-text {
+  max-width: 600px;
+  p {
+    margin-bottom: 0.5em;
+  }
+}
+.about-education {
+  dt {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $primary-blue;
+    margin-bottom: 0.5rem;
+  }
+  span {
+    font-size: 0.9rem;
+    color: $text-gray;
+    display: block;
+  }
+  dd {
+    margin-bottom: 0.5rem;
+  }
+  dd p {
+    font-weight: 400;
+  }
+}
+.skills {
+  .skills-header {
+    font-weight: 700;
+    color: $primary-blue;
+    margin-bottom: 0.5rem;
+  }
+  .skills-list-li {
+    margin: 0.5rem 1rem;
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 900px) {
+  .flex-container {
+    flex-direction: column;
+    margin: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .about-profile {
+    flex-direction: column;
+  }
+}

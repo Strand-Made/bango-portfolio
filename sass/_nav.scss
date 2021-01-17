@@ -1,0 +1,51 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 5rem;
+}
+
+.main-nav {
+  margin: 1rem;
+  li {
+    display: inline-block;
+    margin: 0 0.5rem;
+    position: relative;
+  }
+}
+
+.nav-link {
+  padding: 0.5rem 0;
+  color: #fff;
+}
+.active {
+  font-weight: bold;
+  color: $primary-blue;
+}
+
+.main-nav li a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 0%;
+  background-color: $primary-blue;
+  transition: all 0.5s ease-in-out;
+}
+
+.main-nav li a:hover::after {
+  width: 100%;
+}
+
+.logo {
+  font-family: "Kaushan Script", decoration;
+  color: #ffff;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 700px) {
+  .nav-container {
+    margin: 0 0.5rem;
+  }
+}

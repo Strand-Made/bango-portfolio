@@ -1,0 +1,14 @@
+// Colors
+$primary-darkblue: #01337d;
+$primary-lblue: #0967d2;
+$text-gray: #627d98;
+$text-dark: #616e7c;
+$text-light: #d9e2ec;
+$primary-blue: #0f609b;
+$bg-clgray: #e4e7eb;
+
+@mixin hover-trans {
+  transition: background-color 0.3s ease-in-out;
+}
+
+// f0f4f8;
