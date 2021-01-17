@@ -8,15 +8,19 @@ function showcase() {
     // console.log(project);
     projectContainer.innerHTML += `
       <div class="project-card">
-      <div class="project-card-banner">
-      ${project.tools}
+        <div class="project-card-banner">
+          ${project.tools}
+        </div>
+        <div class="project-image-container">
+          <a href="${project.aboutLink}">
+            <img class="project-card-image" src="${project.image}" alt="preview of ${project.name}"/>
+          </a>
+        </div>
+        </div>
+  
       </div>
-      <div class="project-image-container">
-      <a href="${project.aboutLink}"><img class="project-card-image" src="${project.image}" alt="preview of ${project.name}"/></a>
-      <div class="project-image-text"><h3> ${project.name}</h3>
       </div>
-      </div>
-      </div>
+      
       `;
   }
 }

@@ -1,6 +1,7 @@
 // Portfolio page
 .portfolio {
   padding: 2rem 0;
+  margin-bottom: 10rem;
 }
 .page-header {
   color: $text-light;
@@ -23,13 +24,15 @@
 
   .project-card {
     border-radius: 3px;
-
     &:hover,
     &:focus {
       transform: scale(1.05);
       transition: all 0.5s ease-in-out;
       // margin: 0 1.5rem;
       backface-visibility: hidden;
+    }
+    small {
+      display: none;
     }
   }
 }

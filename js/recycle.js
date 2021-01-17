@@ -20,8 +20,6 @@ const recycle = {
   id: "recycle",
 };
 
-console.log(recycle);
-
 const projectContainer = document.querySelector(".project-details-container");
 
 projectContainer.innerHTML += `<div class="project-details-img">

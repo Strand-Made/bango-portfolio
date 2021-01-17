@@ -480,14 +480,10 @@ body {
 .project-image-text {
   position: absolute;
   background-color: #01337d;
-  bottom: 0;
+  bottom: 0%;
   width: 100%;
   padding: 0.5rem 0;
   text-align: center;
-  display: none;
-}
-
-.show {
   display: block;
 }
 
@@ -502,6 +498,7 @@ body {
 
 .portfolio {
   padding: 2rem 0;
+  margin-bottom: 10rem;
 }
 
 .page-header {
@@ -536,6 +533,10 @@ body {
   backface-visibility: hidden;
 }
 
+.portfolio-container .project-card small {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .portfolio-container {
     align-items: center;
@@ -564,6 +565,7 @@ body {
 .about-me {
   max-width: 1100px;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 
 .about-profile {

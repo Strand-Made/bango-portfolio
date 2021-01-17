@@ -82,14 +82,10 @@
 .project-image-text {
   position: absolute;
   background-color: $primary-darkblue;
-  bottom: 0;
+  bottom: 0%;
   width: 100%;
   padding: 0.5rem 0;
   text-align: center;
-  display: none;
-}
-// display project image text
-.show {
   display: block;
 }
 

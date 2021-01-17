@@ -1,6 +1,8 @@
 function getPortfolio() {
   const portfolioContainer = document.querySelector(".portfolio-container");
   for (let i = 0; i < projects.length; i++) {
+    const toolObject = projects[i].tools;
+
     portfolioContainer.innerHTML += `
     <div class="project-card">
         <div class="project-image-container">
@@ -9,10 +11,11 @@ function getPortfolio() {
             </a>
             <div class="project-image-text show">
                 <h3> ${projects[i].name}</h3>
-                <p> ${projects[i].tools}</p>
+                 ${toolObject}
             </div>
         </div>
     </div>`;
   }
 }
+
 getPortfolio();
