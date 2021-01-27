@@ -43,6 +43,7 @@ a {
 
 small {
   font-family: "Roboto", sans-serif;
+  color: #303d4b;
 }
 
 i {
@@ -652,10 +653,27 @@ body {
   margin: 0.5rem 1rem;
 }
 
+.bookshelf__book img {
+  margin-top: 1rem;
+}
+
+.bookshelf__book small {
+  color: #303d4b;
+}
+
+@media screen and (max-width: 1140px) {
+  .about-me {
+    margin: 0 1rem;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .flex-container {
     flex-direction: column;
     margin: 0 0.5rem;
+  }
+  .bookshelf-container {
+    margin: 1rem 0;
   }
 }
 

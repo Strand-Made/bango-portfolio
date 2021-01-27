@@ -5,7 +5,7 @@ function createDesc() {
   const projectContainer = document.querySelector(".project-details-container");
 
   projectContainer.innerHTML += `<div class="project-details-img">
-                                  <img src= "${flowerPower.image}" alt="image of flowerPower website"/>
+                                  <a href="${flowerPower.link}"<img src= "${flowerPower.image}" alt="image of flowerPower website"/></a>
                                   </div>
   
                                   <div class="project-details-text">

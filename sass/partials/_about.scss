@@ -79,11 +79,30 @@
   }
 }
 
+.bookshelf__book {
+  img {
+    margin-top: 1rem;
+  }
+  small {
+    color: $text-dark-2;
+  }
+}
+
 // Media Queries
+
+@media screen and (max-width: 1140px) {
+  .about-me {
+    margin: 0 1rem;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .flex-container {
     flex-direction: column;
     margin: 0 0.5rem;
+  }
+  .bookshelf-container {
+    margin: 1rem 0;
   }
 }
 

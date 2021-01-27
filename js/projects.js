@@ -3,7 +3,7 @@ const projects = [
     name: "Flower Power",
     desc: `I created a wordpress site for a imaginary company called Flower Power which sells flowers.
         Using the Storefront theme as a base and modifying it as a child theme to be able to make changes without worrying about changes done to the original theme.
-        Plugins used to build the website is:  `,
+        Plugins used to build the website is: Storefront & WooCommerce`,
     client: "School project",
     tools: `<i class="fab fa-wordpress" alt="Wordpress"></i>
        <i class="fab fa-css3-alt" alt="CSS"></i>
@@ -11,7 +11,7 @@ const projects = [
 
     image:
       "http://www.bango.one/portfolio/assets/flower-power-preview-compressed.png",
-    link: "http://www.bango.one/portfolio/flower-power",
+    link: "http://www.bango.one/cms/flower-power",
     aboutLink: "flower-power.html",
     id: 2,
   },
@@ -47,7 +47,7 @@ const projects = [
 
     image:
       "http://www.bango.one/portfolio/assets/spacex-center-preview-compressed.png",
-    link: "http://www.bango.one/portfolio/spacex-center",
+    link: "http://www.bango.one/project-exam/index.html",
     aboutLink: "space-x.html",
     id: "spaceX",
   },
@@ -64,7 +64,7 @@ const projects = [
       <i class="fab fa-css3-alt" alt="CSS"></i>`,
     image:
       "http://www.bango.one/portfolio/assets/letha-organic-leather-preview.png",
-    link: "http://www.bango.one/portfolio/letha",
+    link: "http://www.bango.one/interaction-design/letha/index.html",
     aboutLink: "letha.html",
     id: "letha",
   },
